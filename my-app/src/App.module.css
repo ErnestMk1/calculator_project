@@ -24,7 +24,7 @@ body {
 }
 
 .calculator_grid > button:hover,
-.calculator_grid > button:focus {
+.calculator_grid > button:active {
   background-color: rgba(255, 255, 255, .9);
 }
 
@@ -51,4 +51,5 @@ body {
 
 .output .current_value {
   color: #FFF;
+  font-size: 2rem;
 }
